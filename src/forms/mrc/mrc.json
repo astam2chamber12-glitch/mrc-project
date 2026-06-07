@@ -10,7 +10,6 @@
         { "id": "oldRegNo", "label": "Old/M Reg #", "type": "text" }
       ]
     },
-
     {
       "title": "PARTICULARS OF GROOM",
       "fields": [
@@ -18,7 +17,7 @@
         { "id": "groomNationality", "label": "Nationality", "type": "text" },
         { "id": "groomCnic", "label": "CNIC No", "type": "text" },
         { "id": "groomReligion", "label": "Religion", "type": "text" },
-        { "id": "groomAge", "label": "Age", "type": "text" },
+        { "id": "groomAge", "label": "Age", "type": "number" },
         { "id": "groomStatus", "label": "Marital Status", "type": "text" },
         { "id": "fatherNameGroom", "label": "Father Name", "type": "text" },
         { "id": "fatherCnicGroom", "label": "Father CNIC", "type": "text" },
@@ -27,15 +26,14 @@
         { "id": "groomDistrict", "label": "District", "type": "text" }
       ]
     },
-
     {
-      "title": "PARTICULARS OF Bride",
+      "title": "PARTICULARS OF BRIDE",
       "fields": [
         { "id": "brideName", "label": "Name", "type": "text" },
         { "id": "brideNationality", "label": "Nationality", "type": "text" },
         { "id": "brideCnic", "label": "CNIC No", "type": "text" },
         { "id": "brideReligion", "label": "Religion", "type": "text" },
-        { "id": "brideAge", "label": "Age", "type": "text" },
+        { "id": "brideAge", "label": "Age", "type": "number" },
         { "id": "brideStatus", "label": "Marital Status", "type": "text" },
         { "id": "fatherNameBride", "label": "Father Name", "type": "text" },
         { "id": "fatherCnicBride", "label": "Father CNIC", "type": "text" },
@@ -44,18 +42,16 @@
         { "id": "brideDistrict", "label": "District", "type": "text" }
       ]
     },
-
     {
       "title": "Marriage Details",
       "fields": [
-        { "id": "marriageDate", "label": "Marriage Date", "type": "text" },
+        { "id": "marriageDate", "label": "Marriage Date", "type": "date" },
         { "id": "solemnizedBy", "label": "Marriage Solemnized By", "type": "text" },
         { "id": "solemnizedByCnic", "label": "Solemnized By CNIC", "type": "text" },
-        { "id": "entryDate", "label": "Entry Date", "type": "text" },
-        { "id": "issueDate", "label": "Issue Date", "type": "text" }
+        { "id": "entryDate", "label": "Entry Date", "type": "date" },
+        { "id": "issueDate", "label": "Issue Date", "type": "date" }
       ]
     },
-
     {
       "title": "Authority",
       "fields": [
