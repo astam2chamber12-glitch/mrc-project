@@ -1,0 +1,66 @@
+{
+  "formName": "Marriage Registration Certificate (Translation)",
+  "formCode": "MRC",
+  "sections": [
+    {
+      "title": "Basic Information",
+      "fields": [
+        { "id": "crmsNo", "label": "CRMS No", "type": "text" },
+        { "id": "formNo", "label": "Form No", "type": "text" },
+        { "id": "oldRegNo", "label": "Old/M Reg #", "type": "text" }
+      ]
+    },
+
+    {
+      "title": "PARTICULARS OF GROOM",
+      "fields": [
+        { "id": "groomName", "label": "Name", "type": "text" },
+        { "id": "groomNationality", "label": "Nationality", "type": "text" },
+        { "id": "groomCnic", "label": "CNIC No", "type": "text" },
+        { "id": "groomReligion", "label": "Religion", "type": "text" },
+        { "id": "groomAge", "label": "Age", "type": "text" },
+        { "id": "groomStatus", "label": "Marital Status", "type": "text" },
+        { "id": "fatherNameGroom", "label": "Father Name", "type": "text" },
+        { "id": "fatherCnicGroom", "label": "Father CNIC", "type": "text" },
+        { "id": "groomAddress", "label": "Address", "type": "text" },
+        { "id": "groomTehsil", "label": "Tehsil", "type": "text" },
+        { "id": "groomDistrict", "label": "District", "type": "text" }
+      ]
+    },
+
+    {
+      "title": "PARTICULARS OF Bride",
+      "fields": [
+        { "id": "brideName", "label": "Name", "type": "text" },
+        { "id": "brideNationality", "label": "Nationality", "type": "text" },
+        { "id": "brideCnic", "label": "CNIC No", "type": "text" },
+        { "id": "brideReligion", "label": "Religion", "type": "text" },
+        { "id": "brideAge", "label": "Age", "type": "text" },
+        { "id": "brideStatus", "label": "Marital Status", "type": "text" },
+        { "id": "fatherNameBride", "label": "Father Name", "type": "text" },
+        { "id": "fatherCnicBride", "label": "Father CNIC", "type": "text" },
+        { "id": "brideAddress", "label": "Address", "type": "text" },
+        { "id": "brideTehsil", "label": "Tehsil", "type": "text" },
+        { "id": "brideDistrict", "label": "District", "type": "text" }
+      ]
+    },
+
+    {
+      "title": "Marriage Details",
+      "fields": [
+        { "id": "marriageDate", "label": "Marriage Date", "type": "text" },
+        { "id": "solemnizedBy", "label": "Marriage Solemnized By", "type": "text" },
+        { "id": "solemnizedByCnic", "label": "Solemnized By CNIC", "type": "text" },
+        { "id": "entryDate", "label": "Entry Date", "type": "text" },
+        { "id": "issueDate", "label": "Issue Date", "type": "text" }
+      ]
+    },
+
+    {
+      "title": "Authority",
+      "fields": [
+        { "id": "secretary", "label": "Secretary Name", "type": "text" }
+      ]
+    }
+  ]
+}
