@@ -1,4 +1,4 @@
-import MRCForm from "./forms/MRC/MRCForm";
+import MRCForm from "./forms/mrc/MRCForm";
 
 export default function App() {
   return <MRCForm />;
